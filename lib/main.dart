@@ -1,4 +1,10 @@
+import 'package:dart_mappable/dart_mappable.dart';
 import 'package:flutter/material.dart';
+
+part '../generated/main.mapper.dart';
+
+@MappableClass()
+class Foo with FooMappable {}
 
 void main() {
   runApp(const MyApp());

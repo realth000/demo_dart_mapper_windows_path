@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      dart_mappable_builder:
+        options:
+          build_extensions:
+            'lib/{{}}.dart':
+              - 'lib/generated/{{}}.mapper.dart'
+
