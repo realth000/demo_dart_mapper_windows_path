@@ -52,7 +52,7 @@ dev_dependencies:
     git:
       url: https://github.com/realth000/dart_mappable
       path: "packages/dart_mappable_builder"
-      branch: fix-windows-path-2
+      branch: main
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
